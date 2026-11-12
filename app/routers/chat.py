@@ -14,7 +14,7 @@ from ..timeutil import now_utc
 from ..tools import ToolError, build_tools
 
 router = APIRouter(tags=["chat"])
-
+##Mẫu câu hỏi để người dùng thử nghiệm
 SAMPLE_QUESTIONS = [
     "Kiểm tra hóa đơn I-77",
     "Kiểm tra hóa đơn I-77 và hãy ghi nhận luôn",
