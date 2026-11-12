@@ -1,0 +1,17 @@
+SQLAlchemy
+argon2-cffi
+openai
+email-validator
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+python-dotenv
+psycopg[binary]
+langchain
+langchain-openai
+httpx
+pytest
+PyJWT
+pwdlib[argon2]
+langchain-core

@@ -1,0 +1,49 @@
+# Biến môi trường (chứa DATABASE_URL, OPENAI_API_KEY); chỉ giữ file mẫu
+.env
+.env.*
+!.env.example
+
+# Môi trường ảo của dự án
+myenv/
+
+# Python sinh ra khi chạy
+__pycache__/
+*.py[cod]
+
+# pytest
+.pytest_cache/
+
+# VS Code
+.vscode/
+# Môi trường ảo khác tên
+.venv/
+venv/
+env/
+
+# Cache và báo cáo của công cụ kiểm tra
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+.cache/
+
+# Đóng gói / build
+build/
+dist/
+*.egg-info/
+
+# Log và file tạm
+*.log
+*.tmp
+*.bak
+
+# IDE khác và hệ điều hành
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Cấu hình cục bộ của Claude Code
+.claude/settings.local.json
